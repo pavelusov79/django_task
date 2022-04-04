@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 16px;
+}
+@media all and (min-width: 1024px) and (max-width: 1200px) {
+	html {
+		font-size: 14px;
+	}
+}
+@media all and (min-width: 568px) and (max-width: 1023px) {
+	html {
+		font-size: 12px;
+	}
+}
+@media all and (max-width: 567px) {
+	html {
+		font-size: 10px;
+	}
+}
+
+html, body {
+    height: 100%;
+}
+body {
+	box-sizing: border-box;
+	font-family: Roboto;
+	display: flex;
+	flex-direction: column;
+}
+.container {
+    flex: 1 0 auto;
+}
+
+.errorlist {
+    color: red;
+}
